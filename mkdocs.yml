@@ -1,0 +1,29 @@
+site_name: Parta kokotů
+
+nav:
+  - Home: index.md
+  
+
+theme:
+  name: material
+  logo: null
+  favicon: null
+  palette:
+    primary: black
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs: false
+  hide:
+    - navigation
+    - toc
+    - search
+
+plugins: []
+
+
+
+markdown_extensions:
+  - md_in_html
